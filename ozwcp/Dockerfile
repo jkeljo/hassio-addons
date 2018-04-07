@@ -11,7 +11,8 @@ RUN apk --no-cache add \
       gnutls-dev \
       libmicrohttpd \
       libusb \
-      eudev
+      eudev \
+      xmlstarlet
 
 RUN apk --no-cache --virtual .build-dependencies add \
       coreutils \

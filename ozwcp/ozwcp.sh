@@ -15,7 +15,7 @@ xmlstarlet ed -L -N x="http://code.google.com/p/open-zwave/"\
 	   -i '/x:Options/NewOption' -t attr -n name -v UserPath\
 	   -i '/x:Options/NewOption' -t attr -n value -v "/config/"\
 	   -r '/x:Options/NewOption' -v Option\
-	   options.xml
+	   /config/options.xml
 
 # The part of OZW that *writes* the log respects the UserPath setting in options.xml
 # However, OZWCP's web interface expects to find it in its working directory (and its
