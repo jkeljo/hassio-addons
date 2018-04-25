@@ -1,7 +1,7 @@
 {
   "name": "ozwcp",
   "url": "https://github.com/jkeljo/hassio-addons/blob/master/ozwcp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "slug": "ozwcp",
   "description": "Open ZWave Control Panel",
   "startup": "application",
