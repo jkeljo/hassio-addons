@@ -6,9 +6,7 @@
   "description": "Open ZWave Control Panel",
   "startup": "application",
   "boot": "manual",
-  "devices": [
-    "/dev/ttyACM0:/dev/ttyACM0:rwm"
-  ],
+  "auto_uart": true,
   "map": [
     "config:rw"	
   ],
