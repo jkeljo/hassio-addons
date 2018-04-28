@@ -1,5 +1,5 @@
 {
-  "name": "Jonathan Keljo's Hass.io Addons",
-  "url": "https://github.com/jkeljo/hassio-addons",
+  "name": "Jonathan Keljo's Hass.io Addons (with OpenZWave dev branch)",
+  "url": "https://github.com/jkeljo/hassio-addons#ozw-dev",
   "maintainer": "Jonathan Keljo"
 }

@@ -1,9 +1,9 @@
 {
-  "name": "ozwcp",
-  "url": "https://github.com/jkeljo/hassio-addons/blob/master/ozwcp",
+  "name": "ozwcp-dev",
+  "url": "https://github.com/jkeljo/hassio-addons/blob/ozw-dev/ozwcp",
   "version": "1.0.2",
   "slug": "ozwcp",
-  "description": "Open ZWave Control Panel",
+  "description": "Open ZWave Control Panel (with OpenZWave dev branch)",
   "startup": "application",
   "boot": "manual",
   "auto_uart": true,
