@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.4] - 2018-10-14
+### Fixed
+* Updated config for hassio role-based security	(home-assistant/hassio#692)
+
 ## [1.0.3] - 2018-08-11
 ### Fixed
 * Fixed typo in `aarch64` build config that prevented installing on aarch64 systems

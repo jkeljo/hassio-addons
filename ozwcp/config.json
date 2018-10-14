@@ -1,7 +1,7 @@
 {
   "name": "ozwcp",
   "url": "https://github.com/jkeljo/hassio-addons/blob/master/ozwcp",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "slug": "ozwcp",
   "description": "Open ZWave Control Panel",
   "startup": "application",
@@ -18,5 +18,6 @@
   "schema": {
   },
   "webui": "http://[HOST]:[PORT:8090]",
-  "hassio_api": true
+  "hassio_api": true,
+  "hassio_role": "homeassistant"
 }
