@@ -1,5 +1,4 @@
-#!/bin/bash -e
-source /usr/lib/hassio-addons/base.sh
+#!/usr/bin/env bashio
 
 # Link options.xml from /config/ (used by OZW within Home Assistant) to
 # the OZW used by OZWCP, so that they both will use the same options.
@@ -22,9 +21,9 @@ xmlstarlet ed -L -N x="http://code.google.com/p/open-zwave/"\
 # working directory must be the ozwcp repo), so we link it.
 ln -fs /config/OZW_Log.txt /root/open-zwave-control-panel/OZW_Log.txt
 
-hass.log.info "Stopping hass.io to avoid network, config, and log conflicts..."
-hass.api.homeassistant.stop
+bashio::log.info "Attempting to stop hass.io to avoid network, config, and log conflicts..."
+bashio::homeassistant.stop || bashio::log.warning 'Failed top stop hass.io; continuing anyway'
 
-hass.log.info "Starting ozwcp..."
+bashio::log.info "Starting ozwcp..."
 /root/open-zwave-control-panel/ozwcp
 
