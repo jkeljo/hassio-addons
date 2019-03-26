@@ -1,4 +1,4 @@
-#!/usr/bin/with-contenv bashio
+#!/usr/bin/env bashio
 
 # Link options.xml from /config/ (used by OZW within Home Assistant) to
 # the OZW used by OZWCP, so that they both will use the same options.
