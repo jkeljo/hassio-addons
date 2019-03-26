@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.1.0] - 2019-03-25
+### Changed
+* Updated to latest OZW and OZWCP
+
 ## [1.0.4] - 2018-10-14
 ### Fixed
 * Updated config for hassio role-based security	(home-assistant/hassio#692)
