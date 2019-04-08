@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.1.1] - 2019-04-08
+### Fixed
+* Added `arch` field to `config.json` (required beginning with Hass.io 151)
+
 ## [1.1.0] - 2019-03-25
 ### Changed
 * Updated to latest OZW and OZWCP
