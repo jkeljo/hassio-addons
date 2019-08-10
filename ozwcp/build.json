@@ -1,9 +1,9 @@
 {
   "build_from": {
-      "aarch64": "hassioaddons/base-aarch64:3.0.1",
-      "amd64": "hassioaddons/base-amd64:3.0.1",
-      "armhf": "hassioaddons/base-armhf:3.0.1",
-      "i386": "hassioaddons/base-i386:3.0.1"
+      "aarch64": "hassioaddons/base-aarch64:4.0.2",
+      "amd64": "hassioaddons/base-amd64:4.0.2",
+      "armhf": "hassioaddons/base-armhf:4.0.2",
+      "i386": "hassioaddons/base-i386:4.0.2"
   },
   "args": {
     "OPENZWAVE_VERSION": "30567960bffa355b03bc19cf8d3050fa9796db92",
