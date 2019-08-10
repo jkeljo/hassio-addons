@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.1.2] - 2019-08-09
+### Fixed
+* Fixed Docker build failure
+
 ## [1.1.1] - 2019-04-08
 ### Fixed
 * Added `arch` field to `config.json` (required beginning with Hass.io 151)
