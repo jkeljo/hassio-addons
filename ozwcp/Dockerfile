@@ -6,15 +6,19 @@ ARG OPENZWAVE_VERSION
 ARG OPENZWAVE_CONTROL_PANEL_REPO
 ARG OPENZWAVE_CONTROL_PANEL_VERSION
 
-RUN apk --no-cache add \
+RUN apk update
+
+RUN apk --upgrade add \
       gnutls \
       gnutls-dev \
       libmicrohttpd \
       libusb \
       eudev \
-      xmlstarlet
+      xmlstarlet \
+      musl \
+      musl-utils
 
-RUN apk --no-cache --virtual .build-dependencies add \
+RUN apk --upgrade --virtual .build-dependencies add \
       coreutils \
       eudev-dev \
       g++ \
