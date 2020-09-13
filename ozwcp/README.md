@@ -14,7 +14,7 @@ For most purposes, the ZWave configuration UI embedded in Home Assistant is just
 1. Start the OZWCP addon. This will stop Home Assistant, and then start OZWCP.
 2. OZWCP will come up on port 8090. For the default Hass.io setup, that's [http://hassio.local:8090](http://hassio.local:8090)
 3. When you're done with OZWCP, click the Close button to close its connection to your ZWave controller
-4. Start Home Assistant again by [`ssh`ing into the host](https://community.home-assistant.io/t/community-hass-io-add-on-ssh/33820?u=frenck) and running `hassio homeassistant start`
+4. Start Home Assistant again by [`ssh`ing into the host](https://community.home-assistant.io/t/community-hass-io-add-on-ssh/33820?u=frenck) and running `hassio homeassistant start` (this may also be `ha core start` on some installations).
 5. Manually stop the OZWCP addon so you won't accidentally try to use it while Home Assistant is running
 
 ## Changing the version of OpenZWave and/or OZWCP
